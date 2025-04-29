@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: rgb(81, 80, 80);
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #2e2727;
+    border-radius: 5px;
+    background-color: beige;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  input[type="password"],
+  textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #0b0a0a;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgb(238, 234, 229);
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none; /* Elimina el contorno predeterminado */
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Agrega un resplandor sutil */
+  }
+  h1{
+    color: beige;
+    text-align: center;
+  }

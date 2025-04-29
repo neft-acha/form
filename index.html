@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>REGISTRO DE TU MASCOTA</h1>
+      </header>
+      <main>
+        <article>
+          <form action="">
+            <div class="container">
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input 
+                  type="text" 
+                  id="nombre" 
+                  name="nombre"
+                  placeholder="Nombre de tu perro" />
+              </div>
+              <div class="form-group">
+                <label for="raza">Raza del perro:</label>
+                <select id="raza" name="raza">
+                  <option value="Golden retriever">Golden retriever</option>
+                  <option value="Pitbull">Pitbull</option>
+                  <option value="Rottweiler" >Rottweiler</option>
+                  <option value="Corgi">Corgi</option>
+                  <option value="Shiba ">Shiba Inu</option>
+                  <option value="Otros">Otro, describalo en comentarios</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="comt">Comentarios</label>
+                <textarea rows="10" cols="30"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Registrar" />
+                <input type="reset" value="Limpiar" />
+              </div>
+            </div>
+          </form>
+        </article>
+      </main>
+</body>
+</html>
